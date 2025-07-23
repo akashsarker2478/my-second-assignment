@@ -1,0 +1,111 @@
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* header-area */
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-area .logo img{
+    margin-top: 24px;
+}
+.links{
+    display: flex;
+    gap:48px;
+    margin-top: 40px;
+}
+.links .link{
+    display: flex;
+    gap: 48px;
+    /* display: none; */
+}
+.links a{
+    text-decoration:none;
+}
+.home{
+    color: #252432;
+}
+.shop{
+    color: #8987A1;
+}
+/* banner-area */
+.banner-area{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.banner-area .banner-left{
+    flex:1;
+}
+.banner-area .banner-left h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#fresh-flower{
+    color: #E95A08;
+}
+.banner-area .banner-left p{
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgb(145, 143, 143);
+    margin-top: 13px;
+}
+.banner-area .banner-right img{
+    width: 100%;
+    display: block;
+}
+/* resposive design */
+@media screen and (max-width:768px) {
+    .nav-area{
+        margin: 0 10px;
+    }
+    .links .link{
+    display: flex;
+    gap: 48px;
+    display: none;
+}
+.links #cart{
+    margin-top: 25px;
+}
+.banner-area{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.banner-left{
+    margin:10px;
+   
+}
+.banner-area .banner-left h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.banner-area .banner-left p{
+    font-size:0.875rem;
+    font-weight: 400;
+}
+}
