@@ -321,6 +321,61 @@ footer{
     width: 100%;
     height: 530px;
 }
+/* about-area */
+.about-area{
+    display: flex;
+    padding:30px 160px;
+    background-color: #fffbfb;
+    
+ }
+.about-area > div{
+    flex: 1;
+}
+
+.about-area .logo-area img{
+    display: block;
+    width: 120px;
+}
+.about-area .logo-area p{
+    font-size: 1.375rem;
+    color: #424242;
+    width: 359px;
+    height: 85px;
+    margin-top: 10px;
+}
+.about-area  li{
+    list-style: none;
+}
+.about-area a{
+    text-decoration: none;
+    color: gray;
+}
+.about-area .about-us ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.about-area .feactures ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.about-area .social-media{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 20px;
+}
+.about-area .social-media img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
 
 /* resposive design */
 @media screen and (max-width:768px) {
@@ -392,7 +447,7 @@ footer{
 .flower-lover{
     flex-direction: column;
     max-width: 360px;
-    margin-top: 40px;
+    margin-top: 60px;
     gap: 10px;
 }
 .flower-lover-right .lover-right-text h2{
@@ -419,7 +474,7 @@ footer{
     font-weight: bold;
 }
 .latest-deal .latest-deal-text p{
-    font-size: 1.325rem;
+    font-size: 0.875rem;
     font-weight: 400;
     color: #8987A1;
     max-width: 100%;
@@ -432,21 +487,17 @@ footer{
      gap:25px;
      margin: 100px 10px;
      margin-top: 15px;
-    
 }
 .latest-deal-offer .zabo-plant h4{
     font-size: 1.25rem;
     font-weight: bold;
     color: white;
-    
-
 }
 .latest-deal-offer .zabo-plant a{
     font-size:1rem;
     font-weight: 600;
     color: white;
     margin-top: 15px;
-    
 }
 .latest-deal-offer .zabo-plant{
     background-image: url('../assets/deal-zabo.png');
@@ -455,10 +506,8 @@ footer{
 }
 /* footer banner area */
 footer{
-    
-    max-width: 420px;
-   
-}
+ max-width: 420px;
+ }
 .footer-banner-text h2{
     font-size: 1.25rem;
     font-weight: bold;
@@ -496,5 +545,63 @@ footer{
     margin: 0 auto;
     height: auto;
 }
+/* about-area */
+.about-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:20px 20px;
+    background-color: #fffbfb;
+    
+ }
+.about-area > div{
+    flex: 1;
+}
 
+.about-area .logo-area img{
+    display: block;
+    width: 120px;
+}
+.about-area .logo-area p{
+    font-size: 0.835rem;
+    color: #424242;
+    width: 359px;
+    height: 50px;
+    margin-top: 10px;
+}
+.about-area  li{
+    list-style: none;
+}
+.about-area a{
+    text-decoration: none;
+    color: gray;
+}
+
+.about-area .about-us ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+}
+.about-area .feactures ul {
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 25px;
+}
+.about-area .social-media{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    gap: 20px;
+    margin: 20px 0;
+}
+.about-area .social-media img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
 }
