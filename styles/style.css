@@ -129,26 +129,37 @@
     width: 100%;
     white-space: nowrap;
 }
+.plants-cards .plants-card button:hover{
+    background-color: #424242;
+    transform: scale(1.2);
+}
 /* flower-lover */
 .flower-lover{
     margin-top: 220px;
     position: relative;
     display: flex;
     gap: 60px;
-    
 }
 
 .flower-lover .flower-lover-left .img-1{
     max-width: 100%;
     display: block;
 }
-
 .flower-lover .flower-lover-left .img-2{
     max-width: 15%;
+    height: auto;
     position: absolute;
-    top: -10%;
+    top: -12%;
     left:35%;
-    
+    animation: spin 7s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .flower-lover-right .lover-right-text{
     flex: 1;
@@ -305,6 +316,10 @@ footer{
     background-color: #E95A08;
     border: none;
     cursor: pointer;
+}
+.footer-banner-text button:hover{
+    background-color: #424242;
+    transform: scale(1.2);
 }
 .button-area{
     display: flex;
