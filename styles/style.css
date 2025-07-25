@@ -184,7 +184,6 @@
 /* latest-deal */
 .latest-deal{
     margin-top: 133px;
-   
 }
 .latest-deal .latest-deal-text{
     text-align: center;
@@ -206,7 +205,6 @@
      grid-template-columns:1fr 2fr;
      gap:25px;
      margin: 100px 10px;
-    
 }
 .latest-deal-offer > div{
     background-size: cover;
@@ -420,7 +418,9 @@ footer{
     font-size:0.875rem;
     font-weight: 400;
 }
-
+.our-plants{
+    margin-top:40px;
+}
 .our-plants .plants-text h2{
     font-size: 1.5rem;
     font-weight: bold;
@@ -480,6 +480,9 @@ footer{
     margin-left: 20px;
 }
 /* latest deal */
+.latest-deal{
+    margin-top: 50px;
+}
 .latest-deal .latest-deal-text h4{
     font-size: 3rem;
     font-weight: bold;
@@ -496,7 +499,7 @@ footer{
      display: grid;
      grid-template-columns:1fr;
      gap:25px;
-     margin: 100px 10px;
+     margin: 40px 10px;
      margin-top: 15px;
 }
 .latest-deal-offer .zabo-plant h4{
@@ -563,6 +566,7 @@ footer{
     justify-content: flex-start;
     padding:20px 20px;
     background-color: #fffbfb;
+    margin-top: 40px;
     
  }
 .about-area > div{
